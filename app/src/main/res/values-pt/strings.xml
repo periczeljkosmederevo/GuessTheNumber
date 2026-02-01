@@ -20,6 +20,12 @@
     <string name="chinese">Chinês</string>
     <string name="arabic">Árabe</string>
     <string name="hindi">Hindi</string>
+    <string name="japanese">Japonês</string>
+    <string name="korean">Coreano</string>
+    <string name="bahasa_indonesia">Indonésio</string>
+    <string name="vietnamese">Vietnamita</string>
+    <string name="bengali">Bengali</string>
+    <string name="swahili">Suaíli</string>
 
     <string name="hello_world">Boa Sorte!</string>
     <string name="unesi_ime">Digite um número (1–99)</string>

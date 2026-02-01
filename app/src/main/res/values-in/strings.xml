@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tebak Angka</string>
+    <string name="obaveštenje">Informasi</string>
+    <string name="jezik">Bahasa</string>
+
+    <string name="english">Inggris</string>
+    <string name="srpski_latin">Serbia (Latin)</string>
+    <string name="srpski_cyrl">Serbia (Kiril)</string>
+    <string name="deutsch">Jerman</string>
+    <string name="french">Prancis</string>
+    <string name="nederlands">Belanda</string>
+    <string name="spanish">Spanyol</string>
+    <string name="russian">Rusia</string>
+    <string name="italian">Italia</string>
+    <string name="greek">Yunani</string>
+    <string name="portuguese">Portugis</string>
+    <string name="turkish">Turki</string>
+    <string name="polish">Polandia</string>
+    <string name="chinese">Mandarin</string>
+    <string name="arabic">Arab</string>
+    <string name="hindi">Hindi</string>
+    <string name="japanese">Jepang</string>
+    <string name="korean">Korea</string>
+    <string name="bahasa_indonesia">Bahasa Indonesia</string>
+    <string name="vietnamese">Vietnam</string>
+    <string name="bengali">Bengali</string>
+    <string name="swahili">Swahili</string>
+
+    <string name="hello_world">Semoga Berhasil!</string>
+    <string name="unesi_ime">Masukkan angka (1–99)</string>
+    <string name="unesi_broj_error">Silakan masukkan angka!</string>
+    <string name="nevazeci_unos">Input angka tidak valid!</string>
+    <string name="pogodi_broj_uputstvo">Tebak angka (1–99).\nSisa percobaan: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nAngka tersembunyi lebih besar dari %2$d\n\n(Sisa percobaan: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nAngka tersembunyi lebih kecil dari %2$d\n\n(Sisa percobaan: %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO! Kamu menebak angka %1$d!</string>
+    <string name="poraz_full">Sayang sekali, kamu gagal. Angkanya adalah %1$d.</string>
+    <string name="kraj_igre">Permainan Berakhir</string>
+    <string name="igraj_ponovo">Main Lagi</string>
+    <string name="button_1">Tebak!</string>
+    <string name="buton_ok">OKE</string>
+    <string name="button_cancel">BATAL</string>
+    <string name="hello">Halo %s!</string>
+
+    <string name="uputstvo_fiksno">PERMAINAN TEBAK ANGKA\n\nKomputer telah memikirkan sebuah angka,\n\ndari 1 sampai 99.\n\nKamu punya 10 percobaan. Semoga beruntung!\n\n**********************************</string>
+    <string name="status_pocni">Masukkan angka untuk memulai.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Bukan, </item>
+        <item>Mustahil, </item>
+        <item>Sangat dekat, tapi jauh, </item>
+        <item>Hampir saja, </item>
+        <item>Negatif, </item>
+        <item>*Menguap*, </item>
+        <item>Nggak, </item>
+        <item>Coba kupikir.. TIDAK, </item>
+        <item>Sama sekali tidak mendekati, </item>
+        <item>Sangat meleset, </item>
+        <item>Coba lebih keras lagi, </item>
+        <item>Salah, </item>
+        <item>Bukan itu, </item>
+        <item>Teruslah bermimpi, </item>
+    </string-array>
+</resources>
