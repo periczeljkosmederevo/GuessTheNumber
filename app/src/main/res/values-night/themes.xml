@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/my_light_purple</item>
+        <item name="colorOnPrimary">@color/my_dark_purple</item>
+
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="actionMenuTextColor">@color/my_dark_purple</item>
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+</resources>

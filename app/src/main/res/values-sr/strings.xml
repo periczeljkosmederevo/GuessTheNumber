@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pogodi Broj</string>
+    <string name="obaveštenje">Obaveštenje</string>
+    <string name="jezik">Jezik</string>
+
+    <string name="srpski_latin">Srpski (Latinica)</string>
+    <string name="srpski_cyrl">Srpski (Ćirilica)</string>
+    <string name="english">Engleski</string>
+    <string name="deutsch">Nemački</string>
+    <string name="french">Francuski</string>
+    <string name="nederlands">Holandski</string>
+    <string name="spanish">Španski</string>
+    <string name="russian">Ruski</string>
+    <string name="italian">Italijanski</string>
+    <string name="greek">Grčki</string>
+    <string name="portuguese">Portugalski</string>
+    <string name="turkish">Turski</string>
+    <string name="polish">Poljski</string>
+    <string name="chinese">Kineski</string>
+    <string name="arabic">Arapski</string>
+    <string name="hindi">Hindu</string>
+    <string name="japanese">Japanski</string>
+    <string name="korean">Korejski</string>
+    <string name="bahasa_indonesia">Indonežanski</string>
+    <string name="vietnamese">Vijetnamski</string>
+    <string name="bengali">Bengalski</string>
+    <string name="swahili">Svahili</string>
+
+    <string name="hello_world">Srećno!</string>
+    <string name="unesi_ime">Unesi broj (1–99)</string>
+    <string name="unesi_broj_error">Molim te, unesi broj!</string>
+    <string name="nevazeci_unos">Unos nije validan broj!</string>
+    <string name="pogodi_broj_uputstvo">Pogodi broj (1–99).\nPreostalo pokušaja: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nZamišljeni broj je veći od %2$d\n\n(Preostalo pokušaja: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nZamišljeni broj je manji od %2$d\n\n(Preostalo pokušaja: %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO! Pogodili ste broj %1$d!</string>
+    <string name="poraz_full">Nažalost ovaj put niste uspeli. Zamišljeni broj je bio %1$d.</string>
+    <string name="kraj_igre">Kraj igre</string>
+    <string name="igraj_ponovo">Igraj ponovo</string>
+    <string name="button_1">Pogodi!</string>
+    <string name="buton_ok">OK</string>
+    <string name="button_cancel">OTKAŽI</string>
+    <string name="hello">Zdravo %s!</string>
+
+    <string name="uputstvo_fiksno">IGRA POGODI BROJ\n\nKompjuter je zamislio broj,\n\nod 1 do 99.\n\nImaš 10 pokušaja. Srećno!\n\n**********************************</string>
+    <string name="status_pocni">Unesite broj za početak.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Ma kakvi, </item>
+        <item>Nema šanse, </item>
+        <item>Tako blizu, a tako daleko, </item>
+        <item>Zamalo pogodak, </item>
+        <item>Negativno, </item>
+        <item>*Zev*, </item>
+        <item>Jok, </item>
+        <item>Ček da razmislim.. ipak ne, </item>
+        <item>Ni blizu, </item>
+        <item>Hladno, </item>
+        <item>Potrudi se više, </item>
+        <item>Netačno, </item>
+        <item>Promašena zgrada, </item>
+        <item>Sanjaj i dalje, </item>
+    </string-array>
+</resources>

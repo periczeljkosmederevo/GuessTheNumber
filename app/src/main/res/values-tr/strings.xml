@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sayıyı Tahmin Et</string>
+    <string name="obaveštenje">Bilgi</string>
+    <string name="jezik">Dil</string>
+
+    <string name="turkish">Türkçe</string>
+    <string name="english">İngilizce</string>
+    <string name="srpski_latin">Sırpça (Latin)</string>
+    <string name="srpski_cyrl">Sırpça (Kiril)</string>
+    <string name="deutsch">Almanca</string>
+    <string name="french">Fransızca</string>
+    <string name="nederlands">Flemenkçe</string>
+    <string name="spanish">İspanyolca</string>
+    <string name="russian">Rusça</string>
+    <string name="italian">İtalyanca</string>
+    <string name="greek">Yunanca</string>
+    <string name="portuguese">Portekizce</string>
+    <string name="polish">Lehçe</string>
+    <string name="chinese">Çince</string>
+    <string name="arabic">Arapça</string>
+    <string name="hindi">Hintçe</string>
+    <string name="japanese">Japonca</string>
+    <string name="korean">Korece</string>
+    <string name="bahasa_indonesia">Endonezce</string>
+    <string name="vietnamese">Vietnamca</string>
+    <string name="bengali">Bengalce</string>
+    <string name="swahili">Svahili</string>
+
+    <string name="hello_world">Bol Şans!</string>
+    <string name="unesi_ime">Sayı girin (1–99)</string>
+    <string name="unesi_broj_error">Lütfen bir sayı girin!</string>
+    <string name="nevazeci_unos">Geçersiz sayı girişi!</string>
+    <string name="pogodi_broj_uputstvo">Sayıyı tahmin et (1–99).\nKalan hak: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nGizli sayı %2$d sayısından daha büyük\n\n(Kalan hak: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nGizli sayı %2$d sayısından daha küçük\n\n(Kalan hak: %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO! %1$d sayısını tahmin ettiniz!</string>
+    <string name="poraz_full">Maalesef başaramadınız. Sayı %1$d idi.</string>
+    <string name="kraj_igre">Oyun Bitti</string>
+    <string name="igraj_ponovo">Tekrar Oyna</string>
+    <string name="button_1">Tahmin Et!</string>
+    <string name="buton_ok">Tamam</string>
+    <string name="button_cancel">İPTAL</string>
+    <string name="hello">Merhaba %s!</string>
+
+    <string name="uputstvo_fiksno">SAYI TAHMİN OYUNU\n\nBilgisayar bir sayı tuttu,\n\n1 ile 99 arasında.\n\n10 hakkınız var. Bol şans!\n\n**********************************</string>
+    <string name="status_pocni">Başlamak için bir sayı girin.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Hayır, </item>
+        <item>İmkansız, </item>
+        <item>Çok yaklaştın ama hala uzaksın, </item>
+        <item>Neredeyse oluyordu, </item>
+        <item>Negatif, </item>
+        <item>*Esniyor*, </item>
+        <item>I-ıh, </item>
+        <item>Dur bir düşüneyim.. HAYIR, </item>
+        <item>Yanından bile geçmedin, </item>
+        <item>Buz gibi, </item>
+        <item>Daha fazla çabala, </item>
+        <item>Yanlış, </item>
+        <item>Yanlış kat, </item>
+        <item>Hayal kurmaya devam et, </item>
+    </string-array>
+</resources>

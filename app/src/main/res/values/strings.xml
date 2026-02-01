@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guess the Number</string>
+    <string name="obaveštenje">Information</string>
+    <string name="jezik">Language</string>
+
+    <string name="english">English</string>
+    <string name="srpski_latin">Serbian (Latin)</string>
+    <string name="srpski_cyrl">Serbian (Cyrillic)</string>
+    <string name="deutsch">German</string>
+    <string name="french">French</string>
+    <string name="nederlands">Dutch</string>
+    <string name="spanish">Spanish</string>
+    <string name="russian">Russian</string>
+    <string name="italian">Italian</string>
+    <string name="greek">Greek</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="turkish">Turkish</string>
+    <string name="polish">Polish</string>
+    <string name="chinese">Chinese</string>
+    <string name="arabic">Arabic</string>
+    <string name="hindi">Hindi</string>
+    <string name="japanese">Japanese</string>
+    <string name="korean">Korean</string>
+    <string name="bahasa_indonesia">Indonesian</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="bengali">Bengali</string>
+    <string name="swahili">Swahili</string>
+
+    <string name="hello_world">Good Luck!</string>
+    <string name="unesi_ime">Enter number (1–99)</string>
+    <string name="unesi_broj_error">Please enter a number!</string>
+    <string name="nevazeci_unos">Invalid number input!</string>
+    <string name="pogodi_broj_uputstvo">Guess a number (1–99).\nAttempts left: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nThe hidden number is higher than %2$d\n\n(Attempts left: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nThe hidden number is lower than %2$d\n\n(Attempts left: %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO! You guessed the number %1$d!</string>
+    <string name="poraz_full">Unfortunately, you didn\'t make it. The number was %1$d.</string>
+    <string name="kraj_igre">Game Over</string>
+    <string name="igraj_ponovo">Play Again</string>
+    <string name="button_1">Guess!</string>
+    <string name="buton_ok">OK</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="hello">Hello %s!</string>
+
+    <string name="uputstvo_fiksno">GAME GUESS THE NUMBER\n\nComputer thought of a number,\n\nfrom 1 to 99.\n\nYou have 10 attempts. Good luck!\n\n**********************************</string>
+    <string name="status_pocni">Enter a number to start.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Nope, </item>
+        <item>No way, </item>
+        <item>So close, yet so far, </item>
+        <item>Almost had it, </item>
+        <item>Negative, </item>
+        <item>*Yawn*, </item>
+        <item>Nah, </item>
+        <item>Let me think.. NO, </item>
+        <item>Not even in the ballpark, </item>
+        <item>Ice cold, </item>
+        <item>Try harder, </item>
+        <item>Incorrect, </item>
+        <item>Wrong floor, </item>
+        <item>Keep dreaming, </item>
+    </string-array>
+</resources>

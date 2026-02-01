@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zahlen raten</string>
+    <string name="obaveštenje">Information</string>
+    <string name="jezik">Sprache</string>
+
+    <string name="english">Englisch</string>
+    <string name="srpski_latin">Serbisch (Lateinisch)</string>
+    <string name="srpski_cyrl">Serbisch (Kyrillisch)</string>
+    <string name="deutsch">Deutsch</string>
+    <string name="french">Französisch</string>
+    <string name="nederlands">Niederländisch</string>
+    <string name="spanish">Spanisch</string>
+    <string name="russian">Russisch</string>
+    <string name="italian">Italienisch</string>
+    <string name="greek">Griechisch</string>
+    <string name="portuguese">Portugiesisch</string>
+    <string name="turkish">Türkisch</string>
+    <string name="polish">Polnisch</string>
+    <string name="chinese">Chinesisch</string>
+    <string name="arabic">Arabisch</string>
+    <string name="hindi">Hindi</string>
+    <string name="japanese">Japanisch</string>
+    <string name="korean">Koreanisch</string>
+    <string name="bahasa_indonesia">Indonesisch</string>
+    <string name="vietnamese">Vietnamesisch</string>
+    <string name="bengali">Bengalisch</string>
+    <string name="swahili">Suaheli</string>
+
+    <string name="hello_world">Viel Glück!</string>
+    <string name="unesi_ime">Zahl eingeben (1–99)</string>
+    <string name="unesi_broj_error">Bitte geben Sie eine Zahl ein!</string>
+    <string name="nevazeci_unos">Ungültige Eingabe!</string>
+    <string name="pogodi_broj_uputstvo">Rate die Zahl (1–99).\nVerbleibende Versuche: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nDie gesuchte Zahl ist größer als %2$d\n\n(Verbleibende Versuche: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nDie gesuchte Zahl ist kleiner als %2$d\n\n(Verbleibende Versuche: %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO! Du hast die Zahl %1$d erraten!</string>
+    <string name="poraz_full">Leider hast du es nicht geschafft. Die Zahl war %1$d.</string>
+    <string name="kraj_igre">Spiel vorbei</string>
+    <string name="igraj_ponovo">Nochmal spielen</string>
+    <string name="button_1">Raten!</string>
+    <string name="buton_ok">OK</string>
+    <string name="button_cancel">ABBRECHEN</string>
+    <string name="hello">Hallo %s!</string>
+
+    <string name="uputstvo_fiksno">ZAHLEN RATEN\n\nDer Computer hat sich eine Zahl\n\nzwischen 1 und 99 ausgedacht.\n\nDu hast 10 Versuche. Viel Glück!\n\n**********************************</string>
+    <string name="status_pocni">Gib eine Zahl ein, um zu starten.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Nein, </item>
+        <item>Auf keinen Fall, </item>
+        <item>Knapp daneben, </item>
+        <item>Fast geschafft, </item>
+        <item>Negativ, </item>
+        <item>*Gähn*, </item>
+        <item>Nee, </item>
+        <item>Lass mich nachdenken.. NEIN, </item>
+        <item>Nicht mal annähernd, </item>
+        <item>Eiskalt, </item>
+        <item>Streng dich mehr an, </item>
+        <item>Falsch, </item>
+        <item>Falsches Stockwerk, </item>
+        <item>Träum weiter, </item>
+    </string-array>
+</resources>

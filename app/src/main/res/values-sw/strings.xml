@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tabiri Namba</string>
+    <string name="obaveštenje">Taarifa</string>
+    <string name="jezik">Lugha</string>
+
+    <string name="english">Kiingereza (English)</string>
+    <string name="srpski_latin">Kiserbia (Latini)</string>
+    <string name="srpski_cyrl">Kiserbia (Syrillic)</string>
+    <string name="deutsch">Kijerumani (German)</string>
+    <string name="french">Kifaransa (French)</string>
+    <string name="nederlands">Kiholanzi (Dutch)</string>
+    <string name="spanish">Kihispania (Spanish)</string>
+    <string name="russian">Kirusi (Russian)</string>
+    <string name="italian">Kiitaliano (Italian)</string>
+    <string name="greek">Kigiriki (Greek)</string>
+    <string name="portuguese">Kireno (Portuguese)</string>
+    <string name="turkish">Kituruki (Turkish)</string>
+    <string name="polish">Kipolishi (Polish)</string>
+    <string name="chinese">Kichina (Chinese)</string>
+    <string name="arabic">Kiarabu (Arabic)</string>
+    <string name="hindi">Kihindi (Hindi)</string>
+    <string name="japanese">Kijapani (Japanese)</string>
+    <string name="korean">Kikorea (Korean)</string>
+    <string name="bahasa_indonesia">Kiindonesia (Indonesian)</string>
+    <string name="vietnamese">Kivietinamu (Vietnamese)</string>
+    <string name="bengali">Kibengali (Bengali)</string>
+    <string name="swahili">Kiswahili (Swahili)</string>
+
+    <string name="hello_world">Kila la kheri!</string>
+    <string name="unesi_ime">Ingiza namba (1–99)</string>
+    <string name="unesi_broj_error">Tafadhali ingiza namba!</string>
+    <string name="nevazeci_unos">Namba si sahihi!</string>
+    <string name="pogodi_broj_uputstvo">Tabiri namba (1–99).\nMajaribio yaliyobaki: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nNamba iliyofichwa ni kubwa kuliko %2$d\n\n(Majaribio yaliyobaki: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nNamba iliyofichwa ni ndogo kuliko %2$d\n\n(Majaribio yaliyobaki: %3$d)</string>
+
+    <string name="pobeda_poruka">HODARI! Umetabiri namba %1$d!</string>
+    <string name="poraz_full">Kwa bahati mbaya, hukuweza. Namba ilikuwa %1$d.</string>
+    <string name="kraj_igre">Mchezo Umekwisha</string>
+    <string name="igraj_ponovo">Cheza Tena</string>
+    <string name="button_1">Tabiri!</string>
+    <string name="buton_ok">SAWA</string>
+    <string name="button_cancel">GHAIRI</string>
+    <string name="hello">Jambo %s!</string>
+
+    <string name="uputstvo_fiksno">MCHEZO WA TABIRI NAMBA\n\nKompyuta imewaza namba,\n\nkuanzia 1 hadi 99.\n\nUna majaribio 10. Kila la kheri!\n\n**********************************</string>
+    <string name="status_pocni">Ingiza namba ili kuanza.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Hapana, </item>
+        <item>Haiwezekani, </item>
+        <item>Karibu sana, </item>
+        <item>Ulikaribia kuipata, </item>
+        <item>Si kweli, </item>
+        <item>*Mwayo*, </item>
+        <item>Sio hii, </item>
+        <item>Ngoja nifikirie.. HAPANA, </item>
+        <item>Hata hupo karibu, </item>
+        <item>Baridi sana, </item>
+        <item>Jaribu zaidi, </item>
+        <item>Si sahihi, </item>
+        <item>Umekosea, </item>
+        <item>Endelea kuota, </item>
+    </string-array>
+</resources>

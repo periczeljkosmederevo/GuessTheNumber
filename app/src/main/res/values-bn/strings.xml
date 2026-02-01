@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">সংখ্যাটি অনুমান করুন</string>
+    <string name="obaveštenje">তথ্য</string>
+    <string name="jezik">ভাষা</string>
+
+    <string name="english">ইংরেজি (English)</string>
+    <string name="srpski_latin">সার্বীয় (ল্যাটিন)</string>
+    <string name="srpski_cyrl">সার্বীয় (সিরিলিক)</string>
+    <string name="deutsch">জার্মান (German)</string>
+    <string name="french">ফরাসি (French)</string>
+    <string name="nederlands">ডাচ (Dutch)</string>
+    <string name="spanish">স্প্যানিশ (Spanish)</string>
+    <string name="russian">রাশিয়ান (Russian)</string>
+    <string name="italian">ইতালীয় (Italian)</string>
+    <string name="greek">গ্রীক (Greek)</string>
+    <string name="portuguese">পর্তুগিজ (Portuguese)</string>
+    <string name="turkish">তুর্কি (Turkish)</string>
+    <string name="polish">পোলিশ (Polish)</string>
+    <string name="chinese">চীনা (Chinese)</string>
+    <string name="arabic">আরবি (Arabic)</string>
+    <string name="hindi">হিন্দি (Hindi)</string>
+    <string name="japanese">জাপানি (Japanese)</string>
+    <string name="korean">কোরিয়ান (Korean)</string>
+    <string name="bahasa_indonesia">ইন্দোনেশীয় (Indonesian)</string>
+    <string name="vietnamese">ভিয়েতনামী (Vietnamese)</string>
+    <string name="bengali">বাংলা (Bengali)</string>
+    <string name="swahili">সোয়াহিলি (Swahili)</string>
+
+    <string name="hello_world">শুভকামনা!</string>
+    <string name="unesi_ime">একটি সংখ্যা লিখুন (১–৯৯)</string>
+    <string name="unesi_broj_error">অনুগ্রহ করে একটি সংখ্যা লিখুন!</string>
+    <string name="nevazeci_unos">অকার্যকর ইনপুট!</string>
+    <string name="pogodi_broj_uputstvo">সংখ্যাটি অনুমান করুন (১–৯৯)।\nবাকি প্রচেষ্টা: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nগোপন সংখ্যাটি %2$d এর চেয়ে বড়\n\n(বাকি প্রচেষ্টা: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nগোপন সংখ্যাটি %2$d এর চেয়ে ছোট\n\n(বাকি প্রচেষ্টা: %3$d)</string>
+
+    <string name="pobeda_poruka">সাবাস! আপনি %1$d সংখ্যাটি সঠিক অনুমান করেছেন!</string>
+    <string name="poraz_full">দুর্ভাগ্যবশত, আপনি পারেননি। সংখ্যাটি ছিল %1$d।</string>
+    <string name="kraj_igre">খেলা শেষ</string>
+    <string name="igraj_ponovo">আবার খেলুন</string>
+    <string name="button_1">অনুমান!</string>
+    <string name="buton_ok">ঠিক আছে</string>
+    <string name="button_cancel">বাতিল</string>
+    <string name="hello">হ্যালো %s!</string>
+
+    <string name="uputstvo_fiksno">সংখ্যা অনুমান করার খেলা\n\nকম্পিউটার একটি সংখ্যা ভেবেছে,\n\n১ থেকে ৯৯ এর মধ্যে।\n\nআপনার ১০টি প্রচেষ্টা আছে। শুভকামনা!\n\n**********************************</string>
+    <string name="status_pocni">শুরু করতে একটি সংখ্যা লিখুন।</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>উঁহু, </item>
+        <item>একদমই না, </item>
+        <item>খুব কাছে, তবুও দূরে, </item>
+        <item>প্রায় হয়েই গিয়েছিল, </item>
+        <item>না, </item>
+        <item>*হাই তোলা*, </item>
+        <item>নাহ, </item>
+        <item>আমাকে ভাবতে দাও.. না, </item>
+        <item>আশেপাশেও নেই, </item>
+        <item>খুবই ঠান্ডা, </item>
+        <item>আরও চেষ্টা করুন, </item>
+        <item>ভুল, </item>
+        <item>ভুল পথ, </item>
+        <item>স্বপ্ন দেখতে থাকুন, </item>
+    </string-array>
+</resources>

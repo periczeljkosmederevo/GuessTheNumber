@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">猜数字</string>
+    <string name="obaveštenje">信息</string>
+    <string name="jezik">语言</string>
+
+    <string name="chinese">中文</string>
+    <string name="english">英语</string>
+    <string name="srpski_latin">塞尔维亚语 (拉丁字母)</string>
+    <string name="srpski_cyrl">塞尔维亚语 (西里尔字母)</string>
+    <string name="deutsch">德语</string>
+    <string name="french">法语</string>
+    <string name="nederlands">荷兰语</string>
+    <string name="spanish">西班牙语</string>
+    <string name="russian">俄语</string>
+    <string name="italian">意大利语</string>
+    <string name="greek">希腊语</string>
+    <string name="portuguese">葡萄牙语</string>
+    <string name="turkish">土耳其语</string>
+    <string name="polish">波兰语</string>
+    <string name="arabic">阿拉伯语</string>
+    <string name="hindi">印地语</string>
+    <string name="japanese">日语</string>
+    <string name="korean">韩语</string>
+    <string name="bahasa_indonesia">印尼语</string>
+    <string name="vietnamese">越南语</string>
+    <string name="bengali">孟加拉语</string>
+    <string name="swahili">斯瓦希里语</string>
+
+    <string name="hello_world">祝你好运！</string>
+    <string name="unesi_ime">输入数字 (1–99)</string>
+    <string name="unesi_broj_error">请输入数字！</string>
+    <string name="nevazeci_unos">无效的数字输入！</string>
+    <string name="pogodi_broj_uputstvo">猜猜数字 (1–99)。\n剩余次数：%1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\n隐藏的数字大于 %2$d\n\n(剩余次数：%3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\n隐藏的数字小于 %2$d\n\n(剩余次数：%3$d)</string>
+
+    <string name="pobeda_poruka">太棒了！你猜中了数字 %1$d！</string>
+    <string name="poraz_full">很遗憾，你没能猜中。数字是 %1$d。</string>
+    <string name="kraj_igre">游戏结束</string>
+    <string name="igraj_ponovo">再玩一次</string>
+    <string name="button_1">猜！</string>
+    <string name="buton_ok">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="hello">你好，%s！</string>
+
+    <string name="uputstvo_fiksno">猜数字游戏\n\n电脑想了一个数字，\n\n范围在 1 到 99 之间。\n\n你有 10 次机会。祝你好运！\n\n**********************************</string>
+    <string name="status_pocni">输入一个数字开始游戏。</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>不对， </item>
+        <item>没门， </item>
+        <item>非常接近了，但还不是， </item>
+        <item>差一点点就中了， </item>
+        <item>错误， </item>
+        <item>*哈欠*， </item>
+        <item>不是哦， </item>
+        <item>让我等我想想.. 还是不对， </item>
+        <item>差得远呢， </item>
+        <item>冰凉（完全不对）， </item>
+        <item>再多加把劲， </item>
+        <item>不正确， </item>
+        <item>楼层搞错了， </item>
+        <item>继续做梦吧， </item>
+    </string-array>
+</resources>

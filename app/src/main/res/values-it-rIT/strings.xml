@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Indovina il Numero</string>
+    <string name="obaveštenje">Informazione</string>
+    <string name="jezik">Lingua</string>
+
+    <string name="italian">Italiano</string>
+    <string name="english">Inglese</string>
+    <string name="srpski_latin">Serbo (Latino)</string>
+    <string name="srpski_cyrl">Serbo (Cirillico)</string>
+    <string name="deutsch">Tedesco</string>
+    <string name="french">Francese</string>
+    <string name="nederlands">Olandese</string>
+    <string name="spanish">Spagnolo</string>
+    <string name="russian">Russo</string>
+    <string name="greek">Greco</string>
+    <string name="portuguese">Portoghese</string>
+    <string name="turkish">Turco</string>
+    <string name="polish">Polacco</string>
+    <string name="chinese">Cinese</string>
+    <string name="arabic">Arabo</string>
+    <string name="hindi">Hindi</string>
+    <string name="japanese">Giapponese</string>
+    <string name="korean">Coreano</string>
+    <string name="bahasa_indonesia">Indonesiano</string>
+    <string name="vietnamese">Vietnamita</string>
+    <string name="bengali">Bengalese</string>
+    <string name="swahili">Swahili</string>
+
+    <string name="hello_world">Buona fortuna!</string>
+    <string name="unesi_ime">Inserisci un numero (1–99)</string>
+    <string name="unesi_broj_error">Per favore, inserisci un numero!</string>
+    <string name="nevazeci_unos">Inserimento non valido!</string>
+    <string name="pogodi_broj_uputstvo">Indovina un numero (1–99).\nTentativi rimasti: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nIl numero nascosto è maggiore di %2$d\n\n(Tentativi rimasti: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nIl numero nascosto è minore di %2$d\n\n(Tentativi rimasti: %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO! Hai indovinato il numero %1$d!</string>
+    <string name="poraz_full">Purtroppo non ce l\'hai fatta. Il numero era %1$d.</string>
+    <string name="kraj_igre">Fine del gioco</string>
+    <string name="igraj_ponovo">Gioca ancora</string>
+    <string name="button_1">Indovina!</string>
+    <string name="buton_ok">OK</string>
+    <string name="button_cancel">ANNULLA</string>
+    <string name="hello">Ciao %s!</string>
+
+    <string name="uputstvo_fiksno">GIOCO INDOVINA IL NUMERO\n\nIl computer ha pensato a un numero,\n\nda 1 a 99.\n\nHai 10 tentativi. Buona fortuna!\n\n**********************************</string>
+    <string name="status_pocni">Inserisci un numero per iniziare.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>No, </item>
+        <item>Impossibile, </item>
+        <item>Così vicino, eppure così lontano, </item>
+        <item>Quasi preso, </item>
+        <item>Negativo, </item>
+        <item>*Sbadiglio*, </item>
+        <item>Macché, </item>
+        <item>Fammi pensare.. NO, </item>
+        <item>Neanche lontanamente, </item>
+        <item>Freddo, freddo, </item>
+        <item>Impegnati di più, </item>
+        <item>Errato, </item>
+        <item>Piano sbagliato, </item>
+        <item>Continua a sognare, </item>
+    </string-array>
+</resources>

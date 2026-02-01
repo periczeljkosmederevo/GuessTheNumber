@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adivinhe o Número</string>
+    <string name="obaveštenje">Informação</string>
+    <string name="jezik">Idioma</string>
+
+    <string name="portuguese">Português</string>
+    <string name="english">Inglês</string>
+    <string name="srpski_latin">Sérvio (Latim)</string>
+    <string name="srpski_cyrl">Sérvio (Cirílico)</string>
+    <string name="deutsch">Alemão</string>
+    <string name="french">Francês</string>
+    <string name="nederlands">Holandês</string>
+    <string name="spanish">Espanhol</string>
+    <string name="russian">Russo</string>
+    <string name="italian">Italiano</string>
+    <string name="greek">Grego</string>
+    <string name="turkish">Turco</string>
+    <string name="polish">Polonês</string>
+    <string name="chinese">Chinês</string>
+    <string name="arabic">Árabe</string>
+    <string name="hindi">Hindi</string>
+
+    <string name="hello_world">Boa Sorte!</string>
+    <string name="unesi_ime">Digite um número (1–99)</string>
+    <string name="unesi_broj_error">Por favor, digite um número!</string>
+    <string name="nevazeci_unos">Entrada de número inválida!</string>
+    <string name="pogodi_broj_uputstvo">Adivinhe o número (1–99).\nTentativas restantes: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nO número oculto é maior que %2$d\n\n(Tentativas: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nO número oculto é menor que %2$d\n\n(Tentativas: %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO! Você adivinhou o número %1$d!</string>
+    <string name="poraz_full">Infelizmente você não conseguiu. O número era %1$d.</string>
+    <string name="kraj_igre">Fim de Jogo</string>
+    <string name="igraj_ponovo">Jogar de Novo</string>
+    <string name="button_1">Adivinhar!</string>
+    <string name="buton_ok">OK</string>
+    <string name="button_cancel">CANCELAR</string>
+    <string name="hello">Olá %s!</string>
+
+    <string name="uputstvo_fiksno">JOGO ADIVINHE O NÚMERO\n\nO computador pensou num número,\n\nde 1 a 99.\n\nVocê tem 10 tentativas. Boa sorte!\n\n**********************************</string>
+    <string name="status_pocni">Digite um número para começar.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Não, </item>
+        <item>De jeito nenhum, </item>
+        <item>Tão perto, mas tão longe, </item>
+        <item>Quase lá, </item>
+        <item>Negativo, </item>
+        <item>*Bocejo*, </item>
+        <item>Nah, </item>
+        <item>Deixe-me pensar.. NÃO, </item>
+        <item>Nem perto, </item>
+        <item>Gelado, </item>
+        <item>Tente mais um pouco, </item>
+        <item>Incorreto, </item>
+        <item>Andar errado, </item>
+        <item>Continue a sonhar, </item>
+    </string-array>
+</resources>

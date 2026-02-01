@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Đoán Số</string>
+    <string name="obaveštenje">Thông báo</string>
+    <string name="jezik">Ngôn ngữ</string>
+
+    <string name="english">Tiếng Anh (English)</string>
+    <string name="srpski_latin">Tiếng Serbia (Latin)</string>
+    <string name="srpski_cyrl">Tiếng Serbia (Cyrillic)</string>
+    <string name="deutsch">Tiếng Đức (German)</string>
+    <string name="french">Tiếng Pháp (French)</string>
+    <string name="nederlands">Tiếng Hà Lan (Dutch)</string>
+    <string name="spanish">Tiếng Tây Ban Nha (Spanish)</string>
+    <string name="russian">Tiếng Nga (Russian)</string>
+    <string name="italian">Tiếng Ý (Italian)</string>
+    <string name="greek">Tiếng Hy Lạp (Greek)</string>
+    <string name="portuguese">Tiếng Bồ Đào Nha (Portuguese)</string>
+    <string name="turkish">Tiếng Thổ Nhĩ Kỳ (Turkish)</string>
+    <string name="polish">Tiếng Ba Lan (Polish)</string>
+    <string name="chinese">Tiếng Trung (Chinese)</string>
+    <string name="arabic">Tiếng Ả Rập (Arabic)</string>
+    <string name="hindi">Tiếng Hindi (Hindi)</string>
+    <string name="japanese">Tiếng Nhật (Japanese)</string>
+    <string name="korean">Tiếng Hàn (Korean)</string>
+    <string name="bahasa_indonesia">Tiếng Indonesia (Indonesian)</string>
+    <string name="vietnamese">Tiếng Việt (Vietnamese)</string>
+    <string name="bengali">Tiếng Bengal (Bengali)</string>
+    <string name="swahili">Tiếng Swahili (Swahili)</string>
+
+    <string name="hello_world">Chúc may mắn!</string>
+    <string name="unesi_ime">Nhập một số (1–99)</string>
+    <string name="unesi_broj_error">Vui lòng nhập một số!</string>
+    <string name="nevazeci_unos">Số nhập không hợp lệ!</string>
+    <string name="pogodi_broj_uputstvo">Đoán một số (1–99).\nSố lần thử còn lại: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nSố bí ẩn lớn hơn %2$d\n\n(Số lần thử còn lại: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nSố bí ẩn nhỏ hơn %2$d\n\n(Số lần thử còn lại: %3$d)</string>
+
+    <string name="pobeda_poruka">TUYỆT VỜI! Bạn đã đoán đúng số %1$d!</string>
+    <string name="poraz_full">Rất tiếc, bạn đã không thành công. Số đó là %1$d.</string>
+    <string name="kraj_igre">Kết thúc trò chơi</string>
+    <string name="igraj_ponovo">Chơi lại</string>
+    <string name="button_1">Đoán!</string>
+    <string name="buton_ok">OK</string>
+    <string name="button_cancel">HỦY</string>
+    <string name="hello">Xin chào %s!</string>
+
+    <string name="uputstvo_fiksno">TRÒ CHƠI ĐOÁN SỐ\n\nMáy tính đã nghĩ ra một số,\n\ntừ 1 đến 99.\n\nBạn có 10 lần thử. Chúc may mắn!\n\n**********************************</string>
+    <string name="status_pocni">Nhập một số để bắt đầu.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Không phải, </item>
+        <item>Không đời nào, </item>
+        <item>Rất gần rồi, </item>
+        <item>Suýt nữa thì được, </item>
+        <item>Sai rồi, </item>
+        <item>*Ngáp*, </item>
+        <item>Không đâu, </item>
+        <item>Để tôi nghĩ.. KHÔNG, </item>
+        <item>Còng xa lắm, </item>
+        <item>Lạnh lùng quá, </item>
+        <item>Cố gắng lên, </item>
+        <item>Chưa đúng, </item>
+        <item>Nhầm chỗ rồi, </item>
+        <item>Cứ mơ đi, </item>
+    </string-array>
+</resources>

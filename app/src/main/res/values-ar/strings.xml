@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">خمن الرقم</string>
+    <string name="obaveštenje">معلومات</string>
+    <string name="jezik">اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="srpski_latin">الصربية (لاتيني)</string>
+    <string name="srpski_cyrl">الصربية (كيريلية)</string>
+    <string name="deutsch">الألمانية</string>
+    <string name="french">الفرنسية</string>
+    <string name="nederlands">الهولندية</string>
+    <string name="spanish">الإسبانية</string>
+    <string name="russian">الروسية</string>
+    <string name="italian">الإيطالية</string>
+    <string name="greek">اليونانية</string>
+    <string name="portuguese">البرتغالية</string>
+    <string name="turkish">التركية</string>
+    <string name="polish">البولندية</string>
+    <string name="chinese">الصينية</string>
+    <string name="hindi">الهندية</string>
+    <string name="japanese">اليابانية</string>
+    <string name="korean">الكورية</string>
+    <string name="bahasa_indonesia">الإندونيسية</string>
+    <string name="vietnamese">الفيتنامية</string>
+    <string name="bengali">البنغالية</string>
+    <string name="swahili">السواحيلية</string>
+
+    <string name="hello_world">حظاً موفقاً!</string>
+    <string name="unesi_ime">أدخل رقماً (1–99)</string>
+    <string name="unesi_broj_error">يرجى إدخال رقم!</string>
+    <string name="nevazeci_unos">إدخال رقم غير صالح!</string>
+    <string name="pogodi_broj_uputstvo">خمن الرقم (1–99).\nالمحاولات المتبقية: %1$d</string>
+    <string name="poruka_veci_full">%1$s\n\nالرقم المخفي أكبر من %2$d\n\n(المحاولات المتبقية: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nالرقم المخفي أصغر من %2$d\n\n(المحاولات المتبقية: %3$d)</string>
+    <string name="pobeda_poruka">أحسنت! لقد خمنت الرقم %1$d!</string>
+    <string name="poraz_full">للأسف لم تنجح. كان الرقم هو %1$d.</string>
+    <string name="kraj_igre">نهاية اللعبة</string>
+    <string name="igraj_ponovo">العب مرة أخرى</string>
+    <string name="button_1">خمن!</string>
+    <string name="buton_ok">موافق</string>
+    <string name="button_cancel">إلغاء</string>
+    <string name="hello">مرحباً %s!</string>
+    <string name="uputstvo_fiksno">لعبة تخمين الرقم\n\nفكر الكمبيوتر في رقم،\n\nمن 1 إلى 99.\n\nلديك 10 محاولات. حظاً موفقاً!\n\n**********************************</string>
+    <string name="status_pocni">أدخل رقماً للبدء.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>كلا، </item>
+        <item>مستحيل، </item>
+        <item>قريب جداً ولكن بعيد، </item>
+        <item>ليس تماماً، </item>
+        <item>خطأ، </item>
+        <item>حاول مجدداً، </item>
+        <item>أبداً، </item>
+        <item>ليس كذلك، </item>
+        <item>أنت بعيد، </item>
+        <item>برد قارص، </item>
+        <item>فكر أكثر، </item>
+        <item>ليس هذا، </item>
+        <item>طابق خاطئ، </item>
+        <item>استمر في الحلم، </item>
+    </string-array>
+</resources>

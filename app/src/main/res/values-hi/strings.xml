@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">नंबर का अनुमान लगाएं</string>
+    <string name="obaveštenje">सूचना</string>
+    <string name="jezik">भाषा</string>
+
+    <string name="hindi">हिन्दी</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="srpski_latin">सर्बियाई (लैटिन)</string>
+    <string name="srpski_cyrl">सर्बियाई (सिरिलिक)</string>
+    <string name="deutsch">जर्मन</string>
+    <string name="french">फ़्रेंच</string>
+    <string name="nederlands">डच</string>
+    <string name="spanish">स्पेनिश</string>
+    <string name="russian">रूसी</string>
+    <string name="italian">इतालवी</string>
+    <string name="greek">ग्रीक</string>
+    <string name="portuguese">पुर्तगाली</string>
+    <string name="turkish">तुर्की</string>
+    <string name="polish">पोलिश</string>
+    <string name="chinese">चीनी</string>
+    <string name="arabic">अरबी</string>
+    <string name="japanese">जापानी</string>
+    <string name="korean">कोरियाई</string>
+    <string name="bahasa_indonesia">इंडोनेशियाई</string>
+    <string name="vietnamese">वियतनामी</string>
+    <string name="bengali">बंगाली</string>
+    <string name="swahili">स्वाहिली</string>
+
+    <string name="hello_world">सौभाग्य!</string>
+    <string name="unesi_ime">संख्या दर्ज करें (1–99)</string>
+    <string name="unesi_broj_error">कृपया एक संख्या दर्ज करें!</string>
+    <string name="nevazeci_unos">अमान्य संख्या इनपुट!</string>
+    <string name="pogodi_broj_uputstvo">संख्या का अनुमान लगाएं (1–99)।\nशेष प्रयास: %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nछिपी हुई संख्या %2$d से बड़ी है\n\n(शेष प्रयास: %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nछिपी हुई संख्या %2$d से छोटी है\n\n(शेष प्रयास: %3$d)</string>
+
+    <string name="pobeda_poruka">शाबाश! आपने संख्या %1$d का सही अनुमान लगाया!</string>
+    <string name="poraz_full">दुर्भाग्य से, आप नहीं जीत पाए। वह संख्या %1$d थी।</string>
+    <string name="kraj_igre">खेल खत्म</string>
+    <string name="igraj_ponovo">फिर से खेलें</string>
+    <string name="button_1">अनुमान लगाएं!</string>
+    <string name="buton_ok">ठीक है</string>
+    <string name="button_cancel">रद्द करें</string>
+    <string name="hello">नमस्ते %s!</string>
+
+    <string name="uputstvo_fiksno">नंबर अनुमान लगाने का खेल\n\nकंप्यूटर ने एक नंबर सोचा है,\n\n1 से 99 के बीच।\n\nआपके पास 10 प्रयास हैं। शुभकामनाएँ!\n\n**********************************</string>
+    <string name="status_pocni">शुरू करने के लिए एक संख्या दर्ज करें।</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>नहीं, </item>
+        <item>बिल्कुल नहीं, </item>
+        <item>बहुत करीब, लेकिन दूर, </item>
+        <item>बस होने ही वाला था, </item>
+        <item>नकारात्मक, </item>
+        <item>*जम्हाई*, </item>
+        <item>ना, </item>
+        <item>मुझे सोचने दो.. नहीं, </item>
+        <item>आस-पास भी नहीं, </item>
+        <item>बहुत ठंडा, </item>
+        <item>कड़ी मेहनत करो, </item>
+        <item>गलत, </item>
+        <item>गलत मंजिल, </item>
+        <item>सपने देखते रहो, </item>
+    </string-array>
+</resources>

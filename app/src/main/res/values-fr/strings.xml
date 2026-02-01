@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Devine le Nombre</string>
+    <string name="obaveštenje">Information</string>
+    <string name="jezik">Langue</string>
+
+    <string name="french">Français</string>
+    <string name="english">Anglais</string>
+    <string name="srpski_latin">Serbe (Latin)</string>
+    <string name="srpski_cyrl">Serbe (Cyrillique)</string>
+    <string name="deutsch">Allemand</string>
+    <string name="nederlands">Néerlandais</string>
+    <string name="spanish">Espagnol</string>
+    <string name="russian">Russe</string>
+    <string name="italian">Italien</string>
+    <string name="greek">Grec</string>
+    <string name="portuguese">Portugais</string>
+    <string name="turkish">Turc</string>
+    <string name="polish">Polonais</string>
+    <string name="chinese">Chinois</string>
+    <string name="arabic">Arabe</string>
+    <string name="hindi">Hindi</string>
+    <string name="japanese">Japonais</string>
+    <string name="korean">Coréen</string>
+    <string name="bahasa_indonesia">Indonésien</string>
+    <string name="vietnamese">Vietnamien</string>
+    <string name="bengali">Bengali</string>
+    <string name="swahili">Swahili</string>
+
+    <string name="hello_world">Bonne chance !</string>
+    <string name="unesi_ime">Entrez un nombre (1–99)</string>
+    <string name="unesi_broj_error">Veuillez entrer un nombre !</string>
+    <string name="nevazeci_unos">Entrée non valide !</string>
+    <string name="pogodi_broj_uputstvo">Devinez le nombre (1–99).\nTentatives restantes : %1$d</string>
+
+    <string name="poruka_veci_full">%1$s\n\nLe nombre caché est plus grand que %2$d\n\n(Tentatives restantes : %3$d)</string>
+    <string name="poruka_manji_full">%1$s\n\nLe nombre caché est plus petit que %2$d\n\n(Tentatives restantes : %3$d)</string>
+
+    <string name="pobeda_poruka">BRAVO ! Vous avez deviné le nombre %1$d !</string>
+    <string name="poraz_full">Malheureusement, vous n\'avez pas réussi. Le nombre était %1$d.</string>
+    <string name="kraj_igre">Fin du jeu</string>
+    <string name="igraj_ponovo">Rejouer</string>
+    <string name="button_1">Deviner !</string>
+    <string name="buton_ok">OK</string>
+    <string name="button_cancel">ANNULER</string>
+    <string name="hello">Bonjour %s !</string>
+
+    <string name="uputstvo_fiksno">JEU DEVINE LE NOMBRE\n\nL\'ordinateur a pensé à un nombre,\n\nentre 1 et 99.\n\nVous avez 10 tentatives. Bonne chance !\n\n**********************************</string>
+    <string name="status_pocni">Entrez un nombre pour commencer.</string>
+    <string name="format_broja">%1$d</string>
+
+    <string-array name="uzvici_lista">
+        <item>Oups, </item>
+        <item>Pas question, </item>
+        <item>Si près, mais si loin, </item>
+        <item>Presque, </item>
+        <item>Négatif, </item>
+        <item>*Bâillement*, </item>
+        <item>Nan, </item>
+        <item>Laisse-moi réfléchir.. NON, </item>
+        <item>Pas du tout, </item>
+        <item>Glacial, </item>
+        <item>Fais un effort, </item>
+        <item>Incorrect, </item>
+        <item>Mauvais étage, </item>
+        <item>Continue de rêver, </item>
+    </string-array>
+</resources>
