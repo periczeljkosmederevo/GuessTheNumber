@@ -36,6 +36,11 @@ class MainActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
+        toolbar.apply {
+            touchscreenBlocksFocus = false
+            isFocusable = false
+        }
+
         textView = findViewById(R.id.textView)
         editText = findViewById(R.id.editTextText)
 
