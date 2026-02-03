@@ -5,73 +5,74 @@
     <item
         android:id="@+id/action_language"
         android:title="@string/jezik"
-        app:showAsAction="always"> <menu>
-        <item
-            android:id="@+id/lang_srpski_cyrl"
-            android:title="@string/srpski_cyrl" />
-        <item
-            android:id="@+id/lang_srpski_latin"
-            android:title="@string/srpski_latin" />
-        <item
-            android:id="@+id/lang_ja"
-            android:title="@string/japanese" />
-        <item
-            android:id="@+id/lang_ko"
-            android:title="@string/korean" />
-        <item
-            android:id="@+id/lang_zh"
-            android:title="@string/chinese" />
-        <item
-            android:id="@+id/lang_vi"
-            android:title="@string/vietnamese" />
-        <item
-            android:id="@+id/lang_in"
-            android:title="@string/bahasa_indonesia" />
-        <item
-            android:id="@+id/lang_bn"
-            android:title="@string/bengali" />
-        <item
-            android:id="@+id/lang_hi"
-            android:title="@string/hindi" />
-        <item
-            android:id="@+id/lang_ar"
-            android:title="@string/arabic" />
-        <item
-            android:id="@+id/lang_tr"
-            android:title="@string/turkish" />
-        <item
-            android:id="@+id/lang_ru"
-            android:title="@string/russian" />
-        <item
-            android:id="@+id/lang_el"
-            android:title="@string/greek" />
-        <item
-            android:id="@+id/lang_pl"
-            android:title="@string/polish" />
-        <item
-            android:id="@+id/lang_de"
-            android:title="@string/deutsch" />
-        <item
-            android:id="@+id/lang_it"
-            android:title="@string/italian" />
-        <item
-            android:id="@+id/lang_nl"
-            android:title="@string/nederlands" />
-        <item
-            android:id="@+id/lang_fr"
-            android:title="@string/french" />
-        <item
-            android:id="@+id/lang_en"
-            android:title="@string/english" />
-        <item
-            android:id="@+id/lang_es"
-            android:title="@string/spanish" />
-        <item
-            android:id="@+id/lang_pt"
-            android:title="@string/portuguese" />
-        <item
-            android:id="@+id/lang_sw"
-            android:title="@string/swahili" />
-    </menu>
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/lang_srpski_cyrl"
+                android:title="@string/srpski_cyrl" />
+            <item
+                android:id="@+id/lang_srpski_latin"
+                android:title="@string/srpski_latin" />
+            <item
+                android:id="@+id/lang_ja"
+                android:title="@string/japanese" />
+            <item
+                android:id="@+id/lang_ko"
+                android:title="@string/korean" />
+            <item
+                android:id="@+id/lang_zh"
+                android:title="@string/chinese" />
+            <item
+                android:id="@+id/lang_vi"
+                android:title="@string/vietnamese" />
+            <item
+                android:id="@+id/lang_in"
+                android:title="@string/bahasa_indonesia" />
+            <item
+                android:id="@+id/lang_bn"
+                android:title="@string/bengali" />
+            <item
+                android:id="@+id/lang_hi"
+                android:title="@string/hindi" />
+            <item
+                android:id="@+id/lang_ar"
+                android:title="@string/arabic" />
+            <item
+                android:id="@+id/lang_tr"
+                android:title="@string/turkish" />
+            <item
+                android:id="@+id/lang_ru"
+                android:title="@string/russian" />
+            <item
+                android:id="@+id/lang_el"
+                android:title="@string/greek" />
+            <item
+                android:id="@+id/lang_pl"
+                android:title="@string/polish" />
+            <item
+                android:id="@+id/lang_de"
+                android:title="@string/deutsch" />
+            <item
+                android:id="@+id/lang_it"
+                android:title="@string/italian" />
+            <item
+                android:id="@+id/lang_nl"
+                android:title="@string/nederlands" />
+            <item
+                android:id="@+id/lang_fr"
+                android:title="@string/french" />
+            <item
+                android:id="@+id/lang_en"
+                android:title="@string/english" />
+            <item
+                android:id="@+id/lang_es"
+                android:title="@string/spanish" />
+            <item
+                android:id="@+id/lang_pt"
+                android:title="@string/portuguese" />
+            <item
+                android:id="@+id/lang_sw"
+                android:title="@string/swahili" />
+        </menu>
     </item>
 </menu>

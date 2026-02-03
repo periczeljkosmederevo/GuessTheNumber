@@ -23,6 +23,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // 1. DINAMIČKA ORIJENTACIJA: Provera da li je TV
+        val isTV = resources.configuration.uiMode and
+                android.content.res.Configuration.UI_MODE_TYPE_MASK ==
+                android.content.res.Configuration.UI_MODE_TYPE_TELEVISION
+
+        if (isTV) {
+            requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
+        }
+
         val windowInsetsController = WindowInsetsControllerCompat(window, window.decorView)
         val isDarkMode = resources.configuration.uiMode and
                 android.content.res.Configuration.UI_MODE_NIGHT_MASK ==
@@ -36,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
+        // VAŽNO ZA TV: Dozvoli fokusiranju da prođe do stavki menija
         toolbar.apply {
             touchscreenBlocksFocus = false
             isFocusable = false
@@ -43,12 +53,20 @@ class MainActivity : AppCompatActivity() {
 
         textView = findViewById(R.id.textView)
         editText = findViewById(R.id.editTextText)
+        val proveriDugme = findViewById<Button>(R.id.button)
 
-        findViewById<Button>(R.id.button).setOnClickListener {
+        proveriDugme.setOnClickListener {
             proveriPogodak()
         }
 
         startNewGame()
+
+        // 2. FOKUS ZA TV: Odmah postavi kursor na dugme
+        if (isTV) {
+            proveriDugme.post {
+                proveriDugme.requestFocus()
+            }
+        }
 
         editText.setOnEditorActionListener { v, _, _ ->
             UIHelper.hideKeyboard(this, v)
@@ -59,6 +77,14 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
+
+        val languageItem = menu.findItem(R.id.action_language)
+        val actionView = languageItem?.actionView
+
+        actionView?.setOnClickListener {
+            menu.performIdentifierAction(R.id.action_language, 0)
+        }
+
         return true
     }
 
@@ -93,7 +119,6 @@ class MainActivity : AppCompatActivity() {
             AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(langCode))
             return true
         }
-
         return super.onOptionsItemSelected(item)
     }
 
