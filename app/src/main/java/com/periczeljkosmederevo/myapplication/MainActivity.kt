@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // 1. DINAMIČKA ORIJENTACIJA: Provera da li je TV
+        // Detekcija TV-a za automatski Landscape mod
         val isTV = resources.configuration.uiMode and
                 android.content.res.Configuration.UI_MODE_TYPE_MASK ==
                 android.content.res.Configuration.UI_MODE_TYPE_TELEVISION
@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        // VAŽNO ZA TV: Dozvoli fokusiranju da prođe do stavki menija
         toolbar.apply {
             touchscreenBlocksFocus = false
             isFocusable = false
@@ -61,7 +60,6 @@ class MainActivity : AppCompatActivity() {
 
         startNewGame()
 
-        // 2. FOKUS ZA TV: Odmah postavi kursor na dugme
         if (isTV) {
             proveriDugme.post {
                 proveriDugme.requestFocus()
@@ -77,39 +75,31 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
-
-        val languageItem = menu.findItem(R.id.action_language)
-        val actionView = languageItem?.actionView
-
-        actionView?.setOnClickListener {
-            menu.performIdentifierAction(R.id.action_language, 0)
-        }
-
         return true
     }
 
     private val languageMap = mapOf(
         R.id.lang_srpski_cyrl to "sr-RS",
         R.id.lang_srpski_latin to "sr",
-        R.id.lang_ru to "ru",
-        R.id.lang_de to "de",
-        R.id.lang_nl to "nl",
-        R.id.lang_it to "it-IT",
-        R.id.lang_en to "en",
-        R.id.lang_fr to "fr",
-        R.id.lang_es to "es",
-        R.id.lang_el to "el",
-        R.id.lang_pt to "pt",
-        R.id.lang_tr to "tr",
-        R.id.lang_pl to "pl",
-        R.id.lang_zh to "zh",
-        R.id.lang_ar to "ar",
-        R.id.lang_hi to "hi",
         R.id.lang_ja to "ja",
         R.id.lang_ko to "ko",
-        R.id.lang_in to "in",
+        R.id.lang_zh to "zh",
         R.id.lang_vi to "vi",
+        R.id.lang_in to "in",
         R.id.lang_bn to "bn",
+        R.id.lang_hi to "hi",
+        R.id.lang_ar to "ar",
+        R.id.lang_tr to "tr",
+        R.id.lang_ru to "ru",
+        R.id.lang_el to "el",
+        R.id.lang_pl to "pl",
+        R.id.lang_de to "de",
+        R.id.lang_it to "it-IT",
+        R.id.lang_nl to "nl",
+        R.id.lang_fr to "fr",
+        R.id.lang_en to "en",
+        R.id.lang_es to "es",
+        R.id.lang_pt to "pt",
         R.id.lang_sw to "sw"
     )
 
