@@ -15,8 +15,8 @@ class GameManager {
         preostaloPokusaja--
         return when {
             korisnikovBroj == zamisljeniBroj -> 0
-            korisnikovBroj < zamisljeniBroj -> 1 // Treba veći
-            else -> -1 // Treba manji
+            korisnikovBroj < zamisljeniBroj -> 1
+            else -> -1
         }
     }
 
