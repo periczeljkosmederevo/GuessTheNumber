@@ -23,18 +23,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Detekcija TV-a za automatski Landscape mod
-        val isTV = resources.configuration.uiMode and
-                android.content.res.Configuration.UI_MODE_TYPE_MASK ==
-                android.content.res.Configuration.UI_MODE_TYPE_TELEVISION
-
-        if (isTV) {
-            requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-        }
+        val uiModeManager = getSystemService(UI_MODE_SERVICE) as android.app.UiModeManager
+        val isTV =
+            uiModeManager.currentModeType == android.content.res.Configuration.UI_MODE_TYPE_TELEVISION
 
         val windowInsetsController = WindowInsetsControllerCompat(window, window.decorView)
-        val isDarkMode = resources.configuration.uiMode and
-                android.content.res.Configuration.UI_MODE_NIGHT_MASK ==
+        val isDarkMode = (resources.configuration.uiMode and
+                android.content.res.Configuration.UI_MODE_NIGHT_MASK) ==
                 android.content.res.Configuration.UI_MODE_NIGHT_YES
 
         windowInsetsController.isAppearanceLightStatusBars = !isDarkMode
