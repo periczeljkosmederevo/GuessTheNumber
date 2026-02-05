@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Adivina el Número</string>
-    <string name="obaveštenje">Información</string>
     <string name="jezik">Idioma</string>
 
     <string name="spanish">Español</string>
@@ -27,11 +26,7 @@
     <string name="bengali">Bengalí</string>
     <string name="swahili">Suajili</string>
 
-    <string name="hello_world">¡Buena suerte!</string>
     <string name="unesi_ime">Introduce un número (1–99)</string>
-    <string name="unesi_broj_error">¡Por favor, introduce un número!</string>
-    <string name="nevazeci_unos">¡Entrada de número no válida!</string>
-    <string name="pogodi_broj_uputstvo">Adivina un número (1–99).\nIntentos restantes: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\nEl número oculto es mayor que %2$d\n\n(Intentos restantes: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\nEl número oculto es menor que %2$d\n\n(Intentos restantes: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">¡BRAVO! ¡Has adivinado el número %1$d!</string>
     <string name="poraz_full">Lamentablemente, no lo lograste. El número era %1$d.</string>
     <string name="kraj_igre">Fin del juego</string>
-    <string name="igraj_ponovo">Jugar de nuevo</string>
     <string name="button_1">¡Adivinar!</string>
-    <string name="buton_ok">Aceptar</string>
-    <string name="button_cancel">CANCELAR</string>
-    <string name="hello">¡Hola %s!</string>
 
     <string name="uputstvo_fiksno">JUEGO ADIVINA EL NÚMERO\n\nEl ordenador ha pensado un número,\n\ndel 1 al 99.\n\nTienes 10 intentos. ¡Buena suerte!\n\n**********************************</string>
     <string name="status_pocni">Introduce un número para empezar.</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>Nop, </item>

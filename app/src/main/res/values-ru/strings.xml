@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Угадай число</string>
-    <string name="obaveštenje">Информация</string>
     <string name="jezik">Язык</string>
 
     <string name="russian">Русский</string>
@@ -27,11 +26,7 @@
     <string name="bengali">Бенгальский</string>
     <string name="swahili">Суахили</string>
 
-    <string name="hello_world">Удачи!</string>
     <string name="unesi_ime">Введите число (1–99)</string>
-    <string name="unesi_broj_error">Пожалуйста, введите число!</string>
-    <string name="nevazeci_unos">Неверный ввод числа!</string>
-    <string name="pogodi_broj_uputstvo">Угадайте число (1–99).\nОсталось попыток: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\nЗагаданное число больше, чем %2$d\n\n(Осталось попыток: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\nЗагаданное число меньше, чем %2$d\n\n(Осталось попыток: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">БРАВО! Вы угадали число %1$d!</string>
     <string name="poraz_full">К сожалению, вы проиграли. Было загадано число %1$d.</string>
     <string name="kraj_igre">Игра окончена</string>
-    <string name="igraj_ponovo">Играть снова</string>
     <string name="button_1">Угадать!</string>
-    <string name="buton_ok">ОК</string>
-    <string name="button_cancel">ОТМЕНА</string>
-    <string name="hello">Привет, %s!</string>
 
     <string name="uputstvo_fiksno">ИГРА УГАДАЙ ЧИСЛО\n\nКомпьютер загадал число\n\nот 1 до 99.\n\nУ вас есть 10 попыток. Удачи!\n\n**********************************</string>
     <string name="status_pocni">Введите число, чтобы начать.</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>Неа, </item>

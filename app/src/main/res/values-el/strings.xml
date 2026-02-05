@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Μάντεψε τον Αριθμό</string>
-    <string name="obaveštenje">Πληροφορίες</string>
     <string name="jezik">Γλώσσα</string>
 
     <string name="greek">Ελληνικά</string>
@@ -27,11 +26,7 @@
     <string name="bengali">Βεγγαλικά</string>
     <string name="swahili">Σουαχίλι</string>
 
-    <string name="hello_world">Καλή Τύχη!</string>
     <string name="unesi_ime">Εισάγετε αριθμό (1–99)</string>
-    <string name="unesi_broj_error">Παρακαλώ εισάγετε έναν αριθμό!</string>
-    <string name="nevazeci_unos">Μη έγκυρος αριθμός!</string>
-    <string name="pogodi_broj_uputstvo">Μάντεψε τον αριθμό (1–99).\nΠροσπάθειες που απομένουν: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\nΟ κρυμμένος αριθμός είναι μεγαλύτερος από %2$d\n\n(Προσπάθειες: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\nΟ κρυμμένος αριθμός είναι μικρότερος από %2$d\n\n(Προσπάθειες: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">ΜΠΡΑΒΟ! Μαντέψατε τον αριθμό %1$d!</string>
     <string name="poraz_full">Δυστυχώς δεν τα καταφέρατε. Ο αριθμός ήταν ο %1$d.</string>
     <string name="kraj_igre">Τέλος Παιχνιδιού</string>
-    <string name="igraj_ponovo">Παίξτε ξανά</string>
     <string name="button_1">Μάντεψε!</string>
-    <string name="buton_ok">ΟΚ</string>
-    <string name="button_cancel">ΑΚΥΡΩΣΗ</string>
-    <string name="hello">Γεια σου %s!</string>
 
     <string name="uputstvo_fiksno">ΠΑΙΧΝΙΔΙ ΜΑΝΤΕΨΕ ΤΟΝ ΑΡΙΘΜΟ\n\nΟ υπολογιστής σκέφτηκε έναν αριθμό,\n\nαπό το 1 έως το 99.\n\nΈχετε 10 προσπάθειες. Καλή τύχη!\n\n**********************************</string>
     <string name="status_pocni">Εισάγετε έναν αριθμό για να ξεκινήσετε.</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>Όχι, </item>

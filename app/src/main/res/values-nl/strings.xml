@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Raad het getal</string>
-    <string name="obaveštenje">Melding</string>
     <string name="jezik">Taal</string>
 
     <string name="nederlands">Nederlands</string>
@@ -27,11 +26,7 @@
     <string name="bengali">Bengaals</string>
     <string name="swahili">Swahili</string>
 
-    <string name="hello_world">Veel succes!</string>
     <string name="unesi_ime">Voer een getal in (1–99)</string>
-    <string name="unesi_broj_error">Voer a.u.b. een getal in!</string>
-    <string name="nevazeci_unos">Ongeldige invoer!</string>
-    <string name="pogodi_broj_uputstvo">Raad het getal (1–99).\nResterende pogingen: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\nHet gezochte getal is groter dan %2$d\n\n(Resterende pogingen: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\nHet gezochte getal is kleiner dan %2$d\n\n(Resterende pogingen: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">GEFELICITEERD! Je hebt het getal %1$d geraden!</string>
     <string name="poraz_full">Helaas, het is deze keer niet gelukt. Het getal was %1$d.</string>
     <string name="kraj_igre">Einde spel</string>
-    <string name="igraj_ponovo">Speel opnieuw</string>
     <string name="button_1">Raad!</string>
-    <string name="buton_ok">OK</string>
-    <string name="button_cancel">ANNULEREN</string>
-    <string name="hello">Hallo %s!</string>
 
     <string name="uputstvo_fiksno">RAAD HET GETAL\n\nDe computer heeft een getal\n\ntussen 1 en 99 gekozen.\n\nJe hebt 10 pogingen. Succes!\n\n**********************************</string>
     <string name="status_pocni">Voer een getal in om te beginnen.</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>Nee, </item>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Indovina il Numero</string>
-    <string name="obaveštenje">Informazione</string>
     <string name="jezik">Lingua</string>
 
     <string name="italian">Italiano</string>
@@ -27,11 +26,7 @@
     <string name="bengali">Bengalese</string>
     <string name="swahili">Swahili</string>
 
-    <string name="hello_world">Buona fortuna!</string>
     <string name="unesi_ime">Inserisci un numero (1–99)</string>
-    <string name="unesi_broj_error">Per favore, inserisci un numero!</string>
-    <string name="nevazeci_unos">Inserimento non valido!</string>
-    <string name="pogodi_broj_uputstvo">Indovina un numero (1–99).\nTentativi rimasti: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\nIl numero nascosto è maggiore di %2$d\n\n(Tentativi rimasti: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\nIl numero nascosto è minore di %2$d\n\n(Tentativi rimasti: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">BRAVO! Hai indovinato il numero %1$d!</string>
     <string name="poraz_full">Purtroppo non ce l\'hai fatta. Il numero era %1$d.</string>
     <string name="kraj_igre">Fine del gioco</string>
-    <string name="igraj_ponovo">Gioca ancora</string>
     <string name="button_1">Indovina!</string>
-    <string name="buton_ok">OK</string>
-    <string name="button_cancel">ANNULLA</string>
-    <string name="hello">Ciao %s!</string>
 
     <string name="uputstvo_fiksno">GIOCO INDOVINA IL NUMERO\n\nIl computer ha pensato a un numero,\n\nda 1 a 99.\n\nHai 10 tentativi. Buona fortuna!\n\n**********************************</string>
     <string name="status_pocni">Inserisci un numero per iniziare.</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>No, </item>

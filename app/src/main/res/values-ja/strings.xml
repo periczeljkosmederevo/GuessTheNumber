@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">数字当てゲーム</string>
-    <string name="obaveštenje">通知</string>
     <string name="jezik">言語</string>
 
     <string name="english">英語 (English)</string>
@@ -27,11 +26,7 @@
     <string name="bengali">ベンガル語 (Bengali)</string>
     <string name="swahili">スワヒリ語 (Swahili)</string>
 
-    <string name="hello_world">頑張って！</string>
     <string name="unesi_ime">数字を入力してください (1–99)</string>
-    <string name="unesi_broj_error">数字を入力してください！</string>
-    <string name="nevazeci_unos">無効な入力です！</string>
-    <string name="pogodi_broj_uputstvo">数字を当ててください (1–99)。\n残り回数: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\n正解は %2$d より大きいです\n\n(残り回数: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\n正解は %2$d より小さいです\n\n(残り回数: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">やったね！正解は %1$d でした！</string>
     <string name="poraz_full">残念ながら終了です。正解は %1$d でした。</string>
     <string name="kraj_igre">ゲームオーバー</string>
-    <string name="igraj_ponovo">もう一度遊ぶ</string>
     <string name="button_1">予想する！</string>
-    <string name="buton_ok">OK</string>
-    <string name="button_cancel">キャンセル</string>
-    <string name="hello">こんにちは %s!</string>
 
     <string name="uputstvo_fiksno">数字当てゲーム\n\nコンピューターが1から99までの\n\n数字を考えました。\n\nチャンスは10回です。頑張って！\n\n**********************************</string>
     <string name="status_pocni">数字を入力して開始してください。</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>残念、 </item>

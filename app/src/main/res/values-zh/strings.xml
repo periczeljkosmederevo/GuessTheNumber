@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">猜数字</string>
-    <string name="obaveštenje">信息</string>
     <string name="jezik">语言</string>
 
     <string name="chinese">中文</string>
@@ -27,11 +26,7 @@
     <string name="bengali">孟加拉语</string>
     <string name="swahili">斯瓦希里语</string>
 
-    <string name="hello_world">祝你好运！</string>
     <string name="unesi_ime">输入数字 (1–99)</string>
-    <string name="unesi_broj_error">请输入数字！</string>
-    <string name="nevazeci_unos">无效的数字输入！</string>
-    <string name="pogodi_broj_uputstvo">猜猜数字 (1–99)。\n剩余次数：%1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\n隐藏的数字大于 %2$d\n\n(剩余次数：%3$d)</string>
     <string name="poruka_manji_full">%1$s\n\n隐藏的数字小于 %2$d\n\n(剩余次数：%3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">太棒了！你猜中了数字 %1$d！</string>
     <string name="poraz_full">很遗憾，你没能猜中。数字是 %1$d。</string>
     <string name="kraj_igre">游戏结束</string>
-    <string name="igraj_ponovo">再玩一次</string>
     <string name="button_1">猜！</string>
-    <string name="buton_ok">确定</string>
-    <string name="button_cancel">取消</string>
-    <string name="hello">你好，%s！</string>
 
     <string name="uputstvo_fiksno">猜数字游戏\n\n电脑想了一个数字，\n\n范围在 1 到 99 之间。\n\n你有 10 次机会。祝你好运！\n\n**********************************</string>
     <string name="status_pocni">输入一个数字开始游戏。</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>不对， </item>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Zgadnij liczbę</string>
-    <string name="obaveštenje">Informacja</string>
     <string name="jezik">Język</string>
 
     <string name="polish">Polski</string>
@@ -27,11 +26,7 @@
     <string name="bengali">Bengalski</string>
     <string name="swahili">Suahili</string>
 
-    <string name="hello_world">Powodzenia!</string>
     <string name="unesi_ime">Wpisz liczbę (1–99)</string>
-    <string name="unesi_broj_error">Proszę wpisać liczbę!</string>
-    <string name="nevazeci_unos">Nieprawidłowa liczba!</string>
-    <string name="pogodi_broj_uputstvo">Zgadnij liczbę (1–99).\nPozostałe próby: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\nUkryta liczba jest większa niż %2$d\n\n(Pozostałe próby: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\nUkryta liczba jest mniejsza niż %2$d\n\n(Pozostałe próby: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">BRAWO! Odgadłeś liczbę %1$d!</string>
     <string name="poraz_full">Niestety nie udało się. Liczba to %1$d.</string>
     <string name="kraj_igre">Koniec gry</string>
-    <string name="igraj_ponovo">Zagraj ponownie</string>
     <string name="button_1">Zgadnij!</string>
-    <string name="buton_ok">OK</string>
-    <string name="button_cancel">ANULUJ</string>
-    <string name="hello">Witaj %s!</string>
 
     <string name="uputstvo_fiksno">GRA ZGADNIJ LICZBĘ\n\nKomputer pomyślał liczbę,\n\nod 1 do 99.\n\nMasz 10 prób. Powodzenia!\n\n**********************************</string>
     <string name="status_pocni">Wpisz liczbę, aby zacząć.</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>Nie, </item>

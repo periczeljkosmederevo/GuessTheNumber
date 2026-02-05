@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">숫자 맞추기</string>
-    <string name="obaveštenje">정보</string>
     <string name="jezik">언어</string>
 
     <string name="english">영어</string>
@@ -27,11 +26,7 @@
     <string name="bengali">벵골어</string>
     <string name="swahili">스와힐리어</string>
 
-    <string name="hello_world">행운을 빕니다!</string>
     <string name="unesi_ime">숫자를 입력하세요 (1–99)</string>
-    <string name="unesi_broj_error">숫자를 입력해 주세요!</string>
-    <string name="nevazeci_unos">유효하지 않은 입력입니다!</string>
-    <string name="pogodi_broj_uputstvo">숫자를 맞춰보세요 (1–99).\n남은 기회: %1$d</string>
 
     <string name="poruka_veci_full">%1$s\n\n숨겨진 숫자는 %2$d보다 큽니다.\n\n(남은 기회: %3$d)</string>
     <string name="poruka_manji_full">%1$s\n\n숨겨진 숫자는 %2$d보다 작습니다.\n\n(남은 기회: %3$d)</string>
@@ -39,15 +34,10 @@
     <string name="pobeda_poruka">정답입니다! 숫자는 %1$d였습니다!</string>
     <string name="poraz_full">아쉽네요, 실패했습니다. 정답은 %1$d였습니다.</string>
     <string name="kraj_igre">게임 종료</string>
-    <string name="igraj_ponovo">다시 하기</string>
     <string name="button_1">확인!</string>
-    <string name="buton_ok">확인</string>
-    <string name="button_cancel">취소</string>
-    <string name="hello">안녕하세요 %s님!</string>
 
     <string name="uputstvo_fiksno">숫자 맞추기 게임\n\n컴퓨터가 1에서 99 사이의\n\n숫자 하나를 생각했습니다.\n\n총 10번의 기회가 있습니다. 행운을 빕니다!\n\n**********************************</string>
     <string name="status_pocni">시작하려면 숫자를 입력하세요.</string>
-    <string name="format_broja">%1$d</string>
 
     <string-array name="uzvici_lista">
         <item>틀렸어요, </item>
